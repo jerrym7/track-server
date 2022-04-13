@@ -1,0 +1,2 @@
+# track-server
+This is a server to make http request from track application, to retrieve track list, create tracks, sign up, and sign in and also to make sure the user is signed in at all times. This is an Express JS application to connect, retrieve, and put data on mongo database using mongoose. It creates an JWT for security reasons to make sure user is signed in and the actual user is the one making HTTP request to retrieve their data and not a 'hacker'. 
